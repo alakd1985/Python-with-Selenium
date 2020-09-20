@@ -1,0 +1,6 @@
+file = open('abc.txt','r')
+file1 = open('new.txt','w')
+data = file.read()
+data1 = file1.write(data)
+file.close()
+file1.close()
